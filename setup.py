@@ -13,8 +13,8 @@ def read(*parts):
 
 
 setup(
-    name='django-js-reverse',
-    version='0.10.1a1.dev0',
+    name='django-js-reverse-thread',
+    version='0.0.1',
     classifiers=[
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
@@ -25,11 +25,11 @@ setup(
     ],
     license='MIT',
     description='Javascript url handling for Django that doesn\'t hurt.',
-    long_description=read('README.rst') + '\n\n' + read('CHANGELOG.rst'),
-    author='Bernhard Janetzki',
-    author_email='boerni@gmail.com',
-    url='https://github.com/ierror/django-js-reverse',
-    download_url='http://pypi.python.org/pypi/django-js-reverse/',
+    long_description=read('README.rst'),
+    author='Thread Engineering',
+    author_email='tech@thread.com',
+    url='https://github.com/thread/django-js-reverse',
+    download_url='https://pypi.python.org/pypi/django-js-reverse-thread/',
     packages=find_packages(),
     package_data={
         'django_js_reverse': [

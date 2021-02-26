@@ -18,6 +18,11 @@ Django JS Reverse
 .. image:: https://img.shields.io/pypi/wheel/django-js-reverse.svg
 
 
+NOTE: This package is a fork of
+https://github.com/ierror/django-js-reverse. It contains features and
+fixes not yet available in the original package, but will not be maintained for
+public use. Please depend on the original package.
+
 **Javascript url handling for Django that doesn’t hurt.**
 
 
